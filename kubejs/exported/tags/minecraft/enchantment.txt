@@ -1,0 +1,16 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 30, 2023, 1:15:19 AM
+
+#forbidden_arcanus:modifier/fiery_incompatible
+- minecraft:silk_touch (from forbidden_arcanus-1.19.2-2.1.2.jar)
+
+#forbidden_arcanus:modifier/eternal_incompatible
+- minecraft:unbreaking (from forbidden_arcanus-1.19.2-2.1.2.jar)
+- minecraft:mending (from forbidden_arcanus-1.19.2-2.1.2.jar)
+
+#twilightforest:phantom_armor_banned_enchants
+- minecraft:vanishing_curse (from twilightforest-1.19.2-4.2.1518-universal.jar)
+- minecraft:binding_curse (from twilightforest-1.19.2-4.2.1518-universal.jar)
+
+#forbidden_arcanus:indestructible_blacklisted
+- minecraft:unbreaking (from forbidden_arcanus-1.19.2-2.1.2.jar)
+- minecraft:mending (from forbidden_arcanus-1.19.2-2.1.2.jar)

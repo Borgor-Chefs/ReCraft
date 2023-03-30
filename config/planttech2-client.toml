@@ -1,0 +1,8 @@
+
+[planttech2]
+
+	[planttech2.config]
+		#Client Configuration
+		#Defines if the colorblind version of the guis are shown
+		colorblind_guis = false
+
