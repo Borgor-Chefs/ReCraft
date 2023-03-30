@@ -1,0 +1,38 @@
+{
+  "item.recraftedingots.test_item": "Testing Item",
+
+  "item.recraftedingots.iron_dust": "Iron Dust",
+  "item.recraftedingots.iron_gear": "Iron Gear",
+  "item.recraftedingots.iron_plate": "Iron Plate",
+  "item.recraftedingots.iron_rod": "Iron Rod",
+
+  "item.recraftedingots.gold_dust": "Gold Dust",
+  "item.recraftedingots.gold_gear": "Gold Gear",
+  "item.recraftedingots.gold_plate": "Gold Plate",
+  "item.recraftedingots.gold_rod": "Gold Rod",
+  "item.recraftedingots.raw_gold": "Raw Gold",
+
+  "item.recraftedingots.copper_dust": "Copper Dust",
+  "item.recraftedingots.copper_gear": "Copper Gear",
+  "item.recraftedingots.copper_plate": "Copper Plate",
+  "item.recraftedingots.copper_rod": "Copper Rod",
+  "item.recraftedingots.raw_copper": "Raw Copper",
+
+  "item.recraftedingots.zinc_dust": "Zinc Dust",
+  "item.recraftedingots.zinc_gear": "Zinc Gear",
+  "item.recraftedingots.zinc_plate": "Zinc Plate",
+  "item.recraftedingots.zinc_rod": "Zinc Rod",
+  "item.recraftedingots.raw_zinc": "Raw Zinc",
+  "item.recraftedingots.zinc_ingot": "Zinc Ingot",
+  "item.recraftedingots.zinc_nugget": "Zinc Nugget",
+
+  "item.recraftedingots.brass_dust": "Brass Dust",
+  "item.recraftedingots.brass_gear": "Brass Gear",
+  "item.recraftedingots.brass_plate": "Brass Plate",
+  "item.recraftedingots.brass_rod": "Brass Rod",
+  "item.recraftedingots.brass_ingot": "Brass Ingot",
+  "item.recraftedingots.brass_nugget": "Brass Nugget",
+
+
+  "itemGroup.recraftedingotstab": "ReCrafted Ingots"
+}
