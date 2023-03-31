@@ -91,5 +91,13 @@
   "item.recraftedingots.nickel_nugget": "Nickel Nugget",
   "item.recraftedingots.raw_nickel": "Raw Nickel",
 
+  "item.recraftedingots.bronze_dust": "Bronze Dust",
+  "item.recraftedingots.bronze_gear": "Bronze Gear",
+  "item.recraftedingots.bronze_plate": "Bronze Plate",
+  "item.recraftedingots.bronze_rod": "Bronze Rod",
+  "item.recraftedingots.bronze_ingot": "Bronze Ingot",
+  "item.recraftedingots.bronze_nugget": "Bronze Nugget",
+  "item.recraftedingots.raw_bronze": "Raw Bronze",
+
   "itemGroup.recraftedingotstab": "ReCrafted Ingots"
 }
