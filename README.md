@@ -22,7 +22,7 @@ Tin, -> Dome
 Uranium, -> Done
 Aluminum,
 Osmium,-> Done
-Nickel
+Nickel -> Done
 ```
 
 Plates
@@ -36,7 +36,7 @@ Gold, -> Done
 Copper, -> Done
 Tin,-> Done
 Silver,-> Done
-Nickel,
+Nickel, -> Done
 Electrum,-> Done
 Invar,
 Zinc -> Done
@@ -52,7 +52,7 @@ Bronze,
 Gold, -> Done
 Lead,-> Done
 Silver,-> Done
-Nickel,
+Nickel, -> Done
 Electrum,-> Done
 Invar,
 Zinc -> Done
@@ -65,7 +65,7 @@ Aluminum,
 Lead,-> Done
 Silver, -> Done,
 Tin, -> Done
-Nickel,
+Nickel, -> Done
 Electrum,-> Done
 Uranium-> Done
 ```
