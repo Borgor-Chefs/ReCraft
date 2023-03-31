@@ -83,5 +83,13 @@
   "item.recraftedingots.electrum_nugget": "Electrum Nugget",
   "item.recraftedingots.raw_electrum": "Raw Electrum",
 
+  "item.recraftedingots.nickel_dust": "Nickel Dust",
+  "item.recraftedingots.nickel_gear": "Nickel Gear",
+  "item.recraftedingots.nickel_plate": "Nickel Plate",
+  "item.recraftedingots.nickel_rod": "Nickel Rod",
+  "item.recraftedingots.nickel_ingot": "Nickel Ingot",
+  "item.recraftedingots.nickel_nugget": "Nickel Nugget",
+  "item.recraftedingots.raw_nickel": "Raw Nickel",
+
   "itemGroup.recraftedingotstab": "ReCrafted Ingots"
 }

@@ -180,6 +180,22 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
+    // Nickel Texturing
+    public static final RegistryObject<Item> NICKEL_DUST = ITEMS.register("nickel_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> NICKEL_GEAR = ITEMS.register("nickel_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> NICKEL_PLATE = ITEMS.register("nickel_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> NICKEL_ROD = ITEMS.register("nickel_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> NICKEL_NUGGET = ITEMS.register("nickel_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_NICKEL = ITEMS.register("raw_nickel",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
