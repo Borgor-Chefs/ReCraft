@@ -7,40 +7,67 @@ Iron Ingot, -> Done
 Gold Ingot, -> Done
 Copper Ingot, -> Done
 Zinc Ingot, -> Done
-Brass Ingot,
-Glowing Ingot,
-Multiple Ingot,
-Tin Ingot,
-Silver Ingot,
-Steel Ingot,
-Lead Ingot,
-Bronze Ingot,
-Aluminum Ingot,
-Osmium Ingot,
-Uranium Ingot,
-Signalum Ingot,
-Lumium Ingot,
-Enderium Ingot,
-Nickel Ingot,
-Electrum Ingot,
-Invar Ingot,
-Constantan Ingot,
+Brass Ingot, -> Done
 ```
 Generally all the above will have their own Ingot, Block, Gear, Dust, Nugget, Plate.
 
 Raw Ores Which Should Be ReTextures
 ```
-Iron,
-Copper,
-Gold,
-Zinc,
-Silver,
-Lead,
-Tin,
-Uranium,
+Copper, -> Done
+Gold,-> Done
+Zinc, -> Done
+Silver, -> Done
+Lead, -> Done
+Tin, -> Dome
+Uranium, -> Done
 Aluminum,
-Osmium,
+Osmium,-> Done
 Nickel
+```
+
+Plates
+```
+Iron, -> Done
+Steel,-> Done
+Lead,-> Done
+Bronze,
+Aluminum,
+Gold, -> Done
+Copper, -> Done
+Tin,-> Done
+Silver,-> Done
+Nickel,
+Electrum,-> Done
+Invar,
+Zinc -> Done
+```
+
+Gears
+```
+Iron,-> Done
+Copper, -> Done
+Tin,-> Done
+Steel, -> Done
+Bronze,
+Gold, -> Done
+Lead,-> Done
+Silver,-> Done
+Nickel,
+Electrum,-> Done
+Invar,
+Zinc -> Done
+```
+
+Rods
+```
+Iron, -> Done
+Aluminum,
+Lead,-> Done
+Silver, -> Done,
+Tin, -> Done
+Nickel,
+Electrum,-> Done
+Uranium-> Done
 ```
 
 

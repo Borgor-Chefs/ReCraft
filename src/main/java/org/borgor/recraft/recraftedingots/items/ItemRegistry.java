@@ -83,6 +83,62 @@ public class ItemRegistry {
     public static final RegistryObject<Item> BRASS_NUGGET = ITEMS.register("brass_nugget",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
+    //Silver Texturing
+    public static final RegistryObject<Item> SILVER_DUST = ITEMS.register("silver_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> SILVER_GEAR = ITEMS.register("silver_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> SILVER_PLATE = ITEMS.register("silver_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> SILVER_ROD = ITEMS.register("silver_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_SILVER = ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    //Lead Texturing
+    public static final RegistryObject<Item> LEAD_DUST = ITEMS.register("lead_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> LEAD_GEAR = ITEMS.register("lead_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> LEAD_PLATE = ITEMS.register("lead_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> LEAD_ROD = ITEMS.register("lead_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_LEAD = ITEMS.register("raw_lead",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    //Tin Texturing
+    public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> TIN_GEAR = ITEMS.register("tin_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> TIN_PLATE = ITEMS.register("tin_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> TIN_ROD = ITEMS.register("tin_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_TIN = ITEMS.register("raw_tin",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    //Steel Texturing
+    public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> STEEL_GEAR = ITEMS.register("steel_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> STEEL_PLATE = ITEMS.register("steel_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    //Aluminum Texturing
+    public static final RegistryObject<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ALUMINUM_GEAR = ITEMS.register("aluminum_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ALUMINUM_PLATE = ITEMS.register("aluminum_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ALUMINUM_ROD = ITEMS.register("aluminum_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

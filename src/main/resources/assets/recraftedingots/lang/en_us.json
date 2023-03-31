@@ -33,6 +33,34 @@
   "item.recraftedingots.brass_ingot": "Brass Ingot",
   "item.recraftedingots.brass_nugget": "Brass Nugget",
 
+  "item.recraftedingots.silver_dust": "Silver Dust",
+  "item.recraftedingots.silver_gear": "Silver Gear",
+  "item.recraftedingots.silver_plate": "Silver Plate",
+  "item.recraftedingots.silver_rod": "Silver Rod",
+  "item.recraftedingots.raw_silver": "Raw Silver",
+
+  "item.recraftedingots.lead_dust": "Lead Dust",
+  "item.recraftedingots.lead_gear": "Lead Gear",
+  "item.recraftedingots.lead_plate": "Lead Plate",
+  "item.recraftedingots.lead_rod": "Lead Rod",
+  "item.recraftedingots.raw_lead": "Raw Lead",
+
+  "item.recraftedingots.tin_dust": "Tin Dust",
+  "item.recraftedingots.tin_gear": "Tin Gear",
+  "item.recraftedingots.tin_plate": "Tin Plate",
+  "item.recraftedingots.tin_rod": "Tin Rod",
+  "item.recraftedingots.raw_tin": "Raw Tin",
+
+  "item.recraftedingots.steel_dust": "Steel Dust",
+  "item.recraftedingots.steel_gear": "Steel Gear",
+  "item.recraftedingots.steel_plate": "Steel Plate",
+
+  "item.recraftedingots.aluminum_dust": "Aluminum Dust",
+  "item.recraftedingots.aluminum_gear": "Aluminum Gear",
+  "item.recraftedingots.aluminum_plate": "Aluminum Plate",
+  "item.recraftedingots.aluminum_rod": "Aluminum Rod",
+  "item.recraftedingots.raw_aluminum": "Raw Aluminum",
+
 
   "itemGroup.recraftedingotstab": "ReCrafted Ingots"
 }
