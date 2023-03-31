@@ -1,0 +1,26 @@
+{
+  "values": [
+    "recraftedingots:aluminum_block",
+    "recraftedingots:brass_block",
+    "recraftedingots:bronze_block",
+    "recraftedingots:electrum_block",
+    "recraftedingots:invar_block",
+    "recraftedingots:lead_block",
+    "recraftedingots:nickel_block",
+    "recraftedingots:osmium_block",
+    "recraftedingots:silver_block",
+    "recraftedingots:tin_block",
+    "recraftedingots:uranium_block",
+    "recraftedingots:zinc_block",
+    "recraftedingots:raw_aluminum_block",
+    "recraftedingots:raw_copper_block",
+    "recraftedingots:raw_gold_block",
+    "recraftedingots:raw_lead_block",
+    "recraftedingots:raw_nickel_block",
+    "recraftedingots:raw_osmium_block",
+    "recraftedingots:raw_silver_block",
+    "recraftedingots:raw_tin_block",
+    "recraftedingots:raw_uranium_block",
+    "recraftedingots:raw_zinc_block"
+  ]
+}

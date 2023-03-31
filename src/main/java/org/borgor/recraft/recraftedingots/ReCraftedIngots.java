@@ -23,6 +23,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.borgor.recraft.recraftedingots.blocks.BlockRegistry;
 import org.borgor.recraft.recraftedingots.items.ItemRegistry;
 import org.slf4j.Logger;
 
@@ -39,25 +40,10 @@ public class ReCraftedIngots {
     public ReCraftedIngots(){
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
         ItemRegistry.register(modEventBus);
-
-        modEventBus.addListener(this::commonSetup);
+        BlockRegistry.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
-    }
-
-
-    private void commonSetup(final FMLCommonSetupEvent event){
-
-    }
-
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event){
-
-        }
     }
 
 

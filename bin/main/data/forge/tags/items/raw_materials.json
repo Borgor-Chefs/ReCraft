@@ -1,0 +1,15 @@
+{
+  "values": [
+    "recraftedingots::raw_aluminum",
+    "recraftedingots::raw_bronze",
+    "recraftedingots::raw_copper",
+    "recraftedingots::raw_gold",
+    "recraftedingots::raw_lead",
+    "recraftedingots::raw_nickel",
+    "recraftedingots::raw_osmium",
+    "recraftedingots::raw_silver",
+    "recraftedingots::raw_tin",
+    "recraftedingots::raw_uranium",
+    "recraftedingots::raw_zinc"
+  ]
+}

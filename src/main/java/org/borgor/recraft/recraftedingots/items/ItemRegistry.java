@@ -17,10 +17,6 @@ public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ReCraftedIngots.MODID);
 
-    //Just an Example Item. No Texture or anything set up just making sure the mod loads.
-    public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-
     //Iron Texturing
     public static final RegistryObject<Item> IRON_DUST = ITEMS.register("iron_dust",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
@@ -211,6 +207,21 @@ public class ItemRegistry {
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
     public static final RegistryObject<Item> BRONZE_NUGGET = ITEMS.register("bronze_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+
+    // Invar Texturing
+    public static final RegistryObject<Item> INVAR_DUST = ITEMS.register("invar_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> INVAR_GEAR = ITEMS.register("invar_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> INVAR_PLATE = ITEMS.register("invar_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> INVAR_ROD = ITEMS.register("invar_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> INVAR_INGOT = ITEMS.register("invar_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> INVAR_NUGGET = ITEMS.register("invar_nugget",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
     public static void register(IEventBus eventBus) {
