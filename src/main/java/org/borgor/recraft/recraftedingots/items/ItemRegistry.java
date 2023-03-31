@@ -126,6 +126,8 @@ public class ItemRegistry {
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
     //Aluminum Texturing
+    public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
     public static final RegistryObject<Item> ALUMINUM_DUST = ITEMS.register("aluminum_dust",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
     public static final RegistryObject<Item> ALUMINUM_GEAR = ITEMS.register("aluminum_gear",
