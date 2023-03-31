@@ -61,6 +61,27 @@
   "item.recraftedingots.aluminum_rod": "Aluminum Rod",
   "item.recraftedingots.raw_aluminum": "Raw Aluminum",
 
+  "item.recraftedingots.osmium_dust": "Osmium Dust",
+  "item.recraftedingots.osmium_gear": "Osmium Gear",
+  "item.recraftedingots.osmium_plate": "Osmium Plate",
+  "item.recraftedingots.osmium_rod": "Osmium Rod",
+  "item.recraftedingots.osmium_ingot": "Osmium Ingot",
+  "item.recraftedingots.osmium_nugget": "Osmium Nugget",
+  "item.recraftedingots.raw_osmium": "Raw Osmium",
+
+  "item.recraftedingots.uranium_dust": "Uranium Dust",
+  "item.recraftedingots.uranium_rod": "Uranium Rod",
+  "item.recraftedingots.uranium_ingot": "Uranium Ingot",
+  "item.recraftedingots.uranium_nugget": "Uranium Nugget",
+  "item.recraftedingots.raw_uranium": "Raw Uranium",
+
+  "item.recraftedingots.electrum_dust": "Electrum Dust",
+  "item.recraftedingots.electrum_gear": "Electrum Gear",
+  "item.recraftedingots.electrum_plate": "Electrum Plate",
+  "item.recraftedingots.electrum_rod": "Electrum Rod",
+  "item.recraftedingots.electrum_ingot": "Electrum Ingot",
+  "item.recraftedingots.electrum_nugget": "Electrum Nugget",
+  "item.recraftedingots.raw_electrum": "Raw Electrum",
 
   "itemGroup.recraftedingotstab": "ReCrafted Ingots"
 }

@@ -68,7 +68,6 @@ public class ItemRegistry {
     public static final RegistryObject<Item> ZINC_NUGGET = ITEMS.register("zinc_nugget",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
-
     //Zinc Texturing
     public static final RegistryObject<Item> BRASS_DUST = ITEMS.register("brass_dust",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
@@ -139,7 +138,49 @@ public class ItemRegistry {
     public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
             () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
 
-    public static void register(IEventBus eventBus){
+    // Osmium Texturing
+    public static final RegistryObject<Item> OSMIUM_DUST = ITEMS.register("osmium_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> OSMIUM_GEAR = ITEMS.register("osmium_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> OSMIUM_PLATE = ITEMS.register("osmium_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> OSMIUM_ROD = ITEMS.register("osmium_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> OSMIUM_INGOT = ITEMS.register("osmium_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> OSMIUM_NUGGET = ITEMS.register("osmium_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_OSMIUM = ITEMS.register("raw_osmium",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    // Uranium Texturing
+    public static final RegistryObject<Item> URANIUM_DUST = ITEMS.register("uranium_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> URANIUM_ROD = ITEMS.register("uranium_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> URANIUM_NUGGET = ITEMS.register("uranium_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> RAW_URANIUM = ITEMS.register("raw_uranium",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    // Electrum Texturing
+    public static final RegistryObject<Item> ELECTRUM_DUST = ITEMS.register("electrum_dust",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ELECTRUM_GEAR = ITEMS.register("electrum_gear",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ELECTRUM_PLATE = ITEMS.register("electrum_plate",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ELECTRUM_ROD = ITEMS.register("electrum_rod",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+    public static final RegistryObject<Item> ELECTRUM_NUGGET = ITEMS.register("electrum_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeTabRegistry.RECRAFTED_ORES_TAB)));
+
+    public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
 
