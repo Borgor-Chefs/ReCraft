@@ -1,4 +1,4 @@
-package org.borgor.recraft.recraftexperience.blocks;
+package org.borgor.recraft.recraftexperience.common;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.borgor.recraft.recraftexperience.ReCraftExperience;
-import org.borgor.recraft.recraftexperience.items.ItemRegistry;
 import org.borgor.recraft.recraftexperience.misc.CreativeTabRegistry;
 
 import java.util.function.Supplier;

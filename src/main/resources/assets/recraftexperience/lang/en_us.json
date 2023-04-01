@@ -1,5 +1,20 @@
 {
   "block.recraftexperience.infinity_matrix": "Infinity Matrix",
 
+  "item.minecraft.potion.effect.confusion_potion": "Potion of Confusion",
+  "item.minecraft.splash_potion.effect.confusion_potion": "Splash Potion of Confusion",
+  "item.minecraft.lingering_potion.effect.confusion_potion": "Lingering Potion of Confusion",
+  "item.minecraft.tipped_arrow.effect.confusion_potion": "Arrow of Confusion",
+  "item.minecraft.potion.effect.long_confusion_potion": "Potion of Confusion",
+  "item.minecraft.splash_potion.effect.long_confusion_potion": "Splash Potion of Confusion",
+  "item.minecraft.lingering_potion.effect.long_confusion_potion": "Lingering Potion of Confusion",
+  "item.minecraft.tipped_arrow.effect.long_confusion_potion": "Arrow of Confusion",
+  "item.minecraft.potion.effect.strong_confusion_potion": "Potion of Confusion",
+  "item.minecraft.splash_potion.effect.strong_confusion_potion": "Splash Potion of Confusion",
+  "item.minecraft.lingering_potion.effect.strong_confusion_potion": "Lingering Potion of Confusion",
+  "item.minecraft.tipped_arrow.effect.strong_confusion_potion": "Arrow of Confusion",
+
+  "effect.recraftexperience.confusion": "Confusion",
+
   "itemGroup.recraftexperiencetab": "ReCraft Experience"
 }

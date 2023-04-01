@@ -1,4 +1,4 @@
-package org.borgor.recraft.recraftexperience.items;
+package org.borgor.recraft.recraftexperience.common;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
