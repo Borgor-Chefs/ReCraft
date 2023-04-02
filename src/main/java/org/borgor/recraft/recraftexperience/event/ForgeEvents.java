@@ -4,13 +4,17 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.client.event.MovementInputUpdateEvent;
-import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import org.borgor.recraft.recraftexperience.ReCraftExperience;
 import org.borgor.recraft.recraftexperience.item.alchemy.effect.ConfusionEffect;
 
 import java.util.Optional;
 
-public class PlayerMovementEvent {
-    public static void movementInputUpdate(MovementInputUpdateEvent event) {
+@Mod.EventBusSubscriber(modid = ReCraftExperience.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+public class ForgeEvents {
+    @SubscribeEvent
+    public static void movementInputUpdate(final MovementInputUpdateEvent event) {
         Player player = Minecraft.getInstance().player;
         Optional<MobEffectInstance> confusedEffect;
 
@@ -39,9 +43,5 @@ public class PlayerMovementEvent {
             event.getInput().forwardImpulse *= -1;
             event.getInput().leftImpulse *= -1;
         }
-    }
-
-    public static void registerEvents() {
-        MinecraftForge.EVENT_BUS.addListener(PlayerMovementEvent::movementInputUpdate);
     }
 }

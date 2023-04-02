@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "recraftexperience:block/infinity_matrix" }
+    "": { "model":"recraftexperience:block/infinity_matrix" }
   }
 }

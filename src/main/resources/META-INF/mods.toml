@@ -45,6 +45,13 @@ description='''
 What makes up the ReCraft Experience.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.recraftexperience]]
+modId="geckolib3"
+mandatory=true
+versionRange="[3.1.40,4)"
+ordering="NONE"
+side="BOTH"
+
 [[dependencies.recraftexperience]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
