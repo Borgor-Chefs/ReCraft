@@ -2,12 +2,17 @@ package org.borgor.recraft.recraftexperience.event;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.entity.ai.goal.WrappedGoal;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.client.event.MovementInputUpdateEvent;
+import net.minecraftforge.event.entity.living.MobEffectEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.borgor.recraft.recraftexperience.ReCraftExperience;
 import org.borgor.recraft.recraftexperience.item.alchemy.effect.ConfusionEffect;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Optional;
 
@@ -43,5 +48,43 @@ public class ForgeEvents {
             event.getInput().forwardImpulse *= -1;
             event.getInput().leftImpulse *= -1;
         }
+    }
+
+    @SubscribeEvent
+    public static void mobEffectAdded(final MobEffectEvent.@NotNull Added event) {
+        if (!(event.getEntity() instanceof Monster victim)) {
+            return;
+        }
+
+        if (!(event.getEffectInstance().getEffect() instanceof ConfusionEffect effect)) {
+            return;
+        }
+
+        victim.setTarget(null);
+        effect.setPreviousGoals(victim);
+        victim.targetSelector.removeAllGoals();
+        victim.targetSelector.addGoal(1, new NearestAttackableTargetGoal<>(victim, Monster.class, true));
+    }
+
+    @SubscribeEvent
+    public static void mobEffectExpired(final MobEffectEvent.@NotNull Expired event) {
+        if (!(event.getEntity() instanceof Monster victim)) {
+            return;
+        }
+
+        if (!(event.getEffectInstance().getEffect() instanceof ConfusionEffect effect)) {
+            return;
+        }
+
+        if (effect.getPreviousGoals() == null) {
+            return;
+        }
+
+        victim.targetSelector.removeAllGoals();
+        for (WrappedGoal goal : effect.getPreviousGoals()) {
+            victim.targetSelector.addGoal(goal.getPriority(), goal.getGoal());
+        }
+
+        victim.setTarget(null);
     }
 }
