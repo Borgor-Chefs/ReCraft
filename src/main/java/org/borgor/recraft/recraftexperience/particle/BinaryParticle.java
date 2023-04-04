@@ -13,9 +13,13 @@ public class BinaryParticle extends TextureSheetParticle {
                           double yDirection, double zDirection) {
         super(level, xPos, yPos, zPos, xDirection, yDirection, zDirection);
         this.setSpriteFromAge(sprite);
-        this.friction = 0.65f;
+
+        this.xd = xDirection;
+        this.yd = yDirection;
+        this.zd = zDirection;
         this.lifetime = 20;
         this.hasPhysics = false;
+        this.quadSize = 0.1f;
     }
 
     @OnlyIn(Dist.CLIENT)
@@ -33,8 +37,6 @@ public class BinaryParticle extends TextureSheetParticle {
             return new BinaryParticle(level, sprite, xPos, yPos, zPos, xDirection, yDirection, zDirection);
         }
     }
-
-
 
     @Override
     public ParticleRenderType getRenderType() {
