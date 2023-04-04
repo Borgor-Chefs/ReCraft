@@ -1,6 +1,8 @@
 {
   "block.recraftexperience.infinity_matrix": "Infinity Matrix",
 
+  "item.recraftexperience.infinity_ingot": "Infinity Ingot",
+
   "item.minecraft.potion.effect.confusion_potion": "Potion of Confusion",
   "item.minecraft.splash_potion.effect.confusion_potion": "Splash Potion of Confusion",
   "item.minecraft.lingering_potion.effect.confusion_potion": "Lingering Potion of Confusion",
